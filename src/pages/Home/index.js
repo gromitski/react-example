@@ -8,6 +8,7 @@ import SimpleComponent from '../../components/SimpleComponent';
 import SimplePropComponent from '../../components/SimplePropComponent';
 import ClassComponent from '../../components/ClassComponent';
 import StateComponent from '../../components/StateComponent';
+import APIComponent from '../../components/APIComponent';
 
 
 function Home() {
@@ -46,6 +47,12 @@ function Home() {
 
       <section>
         <StateComponent/>
+      </section>
+
+      <hr/>
+
+      <section>
+        <APIComponent/>
       </section>
     </div>
   )
